@@ -1,0 +1,103 @@
+body {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+  }
+  /*NAV BAR*/
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .top-nav-left {
+    padding: 5px; 
+    margin: 2px;
+  }
+  a {
+      text-decoration: none;
+      color: rgba(0,0,0,0.87);
+  }
+  .Sign-in {
+      margin: 7px;
+      background-color: #4d94ff;
+      color: white;
+      font-size: 15px;
+      border: solid #4d94ff; 
+      cursor: pointer;
+  }
+  /*MAIN CONTENT*/
+  .main-content {
+    text-align: center;
+  }
+  .google-logo {
+    height: 290px;
+    width: auto; 
+    cursor: pointer;
+  }
+  form {
+    top: 300px; left: 480px;
+    text-align: center;
+  }
+  .search-bar {
+    width: 450px;
+    height: 30px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 8px 0 16px;
+    text-align: center;
+  }
+  .button {
+    margin: 3px;
+    border: 1px solid #f2f2f2;
+    border-radius: 1px;
+    padding: 8px;
+    width: 160px;
+    font-size: 15px;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    cursor: pointer;
+    font-family: arial,sans-serif; 
+    
+    
+  }
+  /*FOOTER*/
+  footer { 
+      margin-top: 400px;
+      display: block;
+      bottom: 0;
+      font-size: 10px;
+      height: 35px;
+      width: 100%;
+      position: absolute;
+      left: 3px;
+      right: 5px;
+      border-top: 1px solid #e4e4e4;
+      background: #f2f2f2;
+      font-size: 15px;
+  }
+  #nav-left li {
+    font-size: 17px;
+    display: inline-block;
+    float: left;
+    margin-left: 3px;
+    color: #5f6368;
+    margin-right: 25px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    cursor: pointer;
+  }
+  
+  #nav-right li {
+    display: inline-block;
+    font-size: 17px;
+    float: right;
+    color: #5f6368;
+    margin-left: 30px;
+    margin-right: 25px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    cursor: pointer;
+  }

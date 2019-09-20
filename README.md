@@ -1,0 +1,1 @@
+This is a project to demonstrate my current skills on git, git commands and the best approach to use them and basically keep practicing! From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
